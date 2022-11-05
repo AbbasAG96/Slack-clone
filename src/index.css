@@ -1,0 +1,99 @@
+* {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+li {
+  list-style-type: none;
+}
+
+/*Footer*/
+.main-footer {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 3.125rem;
+}
+.main-footer a img {
+  width: 54px;
+  height: 54px;
+  margin-right: 50px;
+}
+
+.main-footer nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.main-footer nav ul li {
+  font-size: 14px;
+  letter-spacing: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.main-footer nav ul li ul {
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  padding-right: 5rem;
+}
+.main-footer nav ul li ul li:nth-child(1) {
+  font-size: 15px;
+  height: 20px;
+  letter-spacing: normal;
+  line-height: 20px;
+  font-weight: 700;
+}
+/*section2 footer*/
+.section2-footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.section2-footer a {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: normal;
+  line-height: 17px;
+}
+.section2-footer a:hover {
+  color: #1264a3;
+}
+.section2-footer ul {
+  display: flex;
+  flex-direction: row;
+}
+.section2-footer ul li {
+  padding-right: 30px;
+}
+.section2-footer .section2 {
+  display: flex;
+  justify-content: space-between;
+}
+/*bottom-footer*/
+.bottom-footer span {
+  color: rgb(69, 66, 69);
+  font-size: 12px;
+  font-weight: 400;
+  height: 15.4167px;
+  line-height: 15px;
+  padding-bottom: 32px;
+}

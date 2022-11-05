@@ -1,0 +1,85 @@
+/*Nav section*/
+.Navbar {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI",
+    Tahoma, Arial, sans-serif;
+  margin-left: 9%;
+  height: 5rem;
+}
+.Navbar a {
+  color: #fff;
+}
+.Navbar nav .logo {
+  width: 7.25rem;
+  padding-top: 0.5rem;
+}
+.Navbar nav {
+  display: flex;
+  align-items: center;
+}
+.NavbarUl li {
+  display: inline-block;
+  padding: 15px 25px 10px 0px;
+  font-size: 15px;
+  line-height: 1.438rem;
+  font-weight: 700;
+  position: relative;
+}
+
+.search {
+  margin-left: 10.938rem;
+  color: white;
+}
+.Navbar .button {
+  border: white 2px solid;
+  padding: 9px;
+  border-radius: 3px;
+  color: white;
+  font-size: 0.875rem;
+  letter-spacing: 0.8px;
+  line-height: 17px;
+  font-weight: 700;
+}
+.Navbar .button:hover {
+  border: white 3px solid;
+}
+.Navbar .button2 {
+  border: white 3px solid;
+  background: white;
+  color: #400d40;
+  font-size: 0.875rem;
+  letter-spacing: 0.8px;
+  line-height: 17px;
+  font-weight: 700;
+  padding: 9px;
+  border-radius: 3px;
+}
+.Navbar .button2:hover {
+  border: #4a154b 3px solid;
+}
+
+.Navbar .NavbarUlUl {
+  position: absolute;
+  top: 40px;
+  left: -20px;
+  display: none;
+}
+.NavbarUl li:hover > ul {
+  display: block;
+  color: black;
+  border-radius: 5px;
+  background-color: white;
+}
+.NavbarUlUl li {
+  width: 150px;
+  color: black;
+  float: right;
+  display: list-item;
+  padding-top: 4px;
+  position: relative;
+}
+.NavbarUlUl li:hover {
+  background-color: #1264a3;
+}
+.NavbarUlUl li a {
+  color: black;
+}

@@ -1,0 +1,47 @@
+.Header {
+  background: #400d40;
+  height: 60%;
+}
+.headerContents {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  font-weight: 700;
+  margin-left: 10%;
+}
+.headerContents video {
+  max-height: 25rem;
+  max-width: 43.75rem;
+}
+.headerContents h1 {
+  font-size: 3.75rem;
+}
+.headerContents p {
+  font-size: 1.125rem;
+  padding: 15px 0 20px 0;
+}
+.headerContents span {
+  color: rgb(236, 178, 46);
+}
+
+.headerContents a {
+  padding: 14px;
+  border: 3px solid white;
+  color: #400d40;
+  background: #fff;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  letter-spacing: 0.8px;
+  line-height: 17px;
+  font-weight: 700;
+}
+.headerContents .button2 {
+  background: #1264a3;
+  border: 5px solid #1264a3;
+  margin-left: 10px;
+  color: #fff;
+}
+.headerContents video {
+  padding: 30px 0 70px 0;
+}
